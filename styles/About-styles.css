@@ -1,0 +1,15 @@
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+header img{
+    width: 60%;
+    height: auto;
+}
+
+body{
+    background-color: purple;
+}
