@@ -12,4 +12,24 @@ header img{
 
 body{
     background-color: purple;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+/* .banner{
+    text-align: center;
+} */
+
+.rectangle{
+    color:white;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.inner-banner{
+    text-align: center;
+    padding-top: 30px;
+}
+
