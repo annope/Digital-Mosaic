@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Flickity CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+    <!-- Flickity JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="The Digital Vibe Model">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#opportunities">Opportunities</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#career-quiz">Career Quiz</a></li>
+                <li><a href="#profile" class="icon-button"><i class="fas fa-user-circle"></i></a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Page Content -->
+    <main>
+
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="image1.jpg" alt="Slide 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="image2.jpg" alt="Slide 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="image3.jpg" alt="Slide 3">
+            </div>
+        </div>
+        
+
+
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Job Finder</h1>
+                <p>Your gateway to the best job opportunities</p>
+            </div>
+        </section>
+
+
+
+        <!-- Featured Jobs Section -->
+        <section class="featured-jobs">
+            <h2>Featured Job Openings</h2>
+            <div class="job-listings">
+                <div class="job-card">
+                    <h3>Google Apprenticeship</h3>
+                    <p>Multiple roles available</p>
+                </div>
+                <div class="job-card">
+                    <h3>Disney Tech Fellowship</h3>
+                    <p>Multiple roles available</p>
+                </div>
+                <div class="job-card">
+                    <h3>Pinterest Internship</h3>
+                    <p>Multiple roles available</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Image Strip Section -->
+        <section class="image-strip">
+            <img src="v5-new-logo.png" alt="Image 1">
+
+        <!-- Add more images as needed -->
+        </section>
+
+        <!-- Join the Community Section -->
+        <section class="join-community">
+            <h2>Join the Community</h2>
+            <p>Subscribe to our newsletter to stay updated with the latest job openings and opportunities.</p>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        // Initialize Flickity
+        var flkty = new Flickity('.carousel', {
+            // options
+            wrapAround: true // Enable wrap-around
+        });
+    </script>
+    
+
+       
